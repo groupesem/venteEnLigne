@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/VenteElectronique.iml" filepath="$PROJECT_DIR$/VenteElectronique.iml" />
+      <module fileurl="file://C:\Users\Sana\venteEnLigne\VenteElectronique.iml" filepath="C:\Users\Sana\venteEnLigne\VenteElectronique.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Sana\venteEnLigne\app\app.iml" filepath="C:\Users\Sana\venteEnLigne\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/venteEnLigne.iml" filepath="$PROJECT_DIR$/venteEnLigne.iml" />
     </modules>
   </component>
 </project>
