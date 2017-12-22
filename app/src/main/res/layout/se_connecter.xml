@@ -64,8 +64,8 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText7"
-        android:layout_marginTop="39dp"
+        android:layout_above="@+id/button"
+        android:layout_marginBottom="22dp"
         android:layout_toEndOf="@+id/textView9"
         android:background="#848484"
         android:text="S'inscrire" />
