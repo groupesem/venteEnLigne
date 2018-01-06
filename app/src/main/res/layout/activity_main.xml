@@ -7,69 +7,101 @@
     tools:context="com.example.takwa.venteelectronique.MainActivity">
 
     <ImageView
+        android:id="@+id/logoimg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/LOGO"
-        android:id="@+id/logoimg"/>
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/logotv"
+        android:layout_width="114dp"
+        android:layout_height="31dp"
         android:text="ElectroVente"
-        android:id="@+id/logotv"/>
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
 
 
     <ImageView
+        android:id="@+id/composantimg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/COMP"
-        android:id="@+id/composantimg"/>
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="59dp"
+        tools:ignore="MissingConstraints" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ElectroVente est une application android \n qui nous facilite
-        la recherche et l'achat des composants electroniques en proposant une varité des materiels embarquées en tunisie"
-        android:id="@+id/composanttv"/>
+        android:id="@+id/composanttv"
+        android:layout_width="351dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="ElectroVente est une application android qui nous facilite la recherche et l'achat des  composants electroniques en proposant une varité  des materiels embarquées en tunisie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="303dp"
+        tools:ignore="MissingConstraints" />
 
 
     <ImageView
+        android:id="@+id/localeimg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/LOCAL"
-        android:id="@+id/localeimg">
-    </ImageView>
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="474dp"
+        tools:ignore="MissingConstraints"></ImageView>
+
     <TextView
+        android:id="@+id/localetv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tunis"
-        android:id="@+id/localetv"/>
-
-
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="476dp"
+        tools:ignore="MissingConstraints" />
 
 
     <ImageView
+        android:id="@+id/mailimg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/msg"
-        android:id="@+id/mailimg">
-    </ImageView>
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="422dp"
+        tools:ignore="MissingConstraints"></ImageView>
+
     <TextView
+        android:id="@+id/mailtv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Electro_vente@gmail.com"
-        android:id="@+id/mailtv"/>
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="422dp"
+        tools:ignore="MissingConstraints" />
 
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/phoneimg"
+        android:layout_width="26dp"
+        android:layout_height="22dp"
         android:src="@drawable/PHONE"
-        android:id="@+id/phoneimg">
-    </ImageView>
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="375dp"
+        tools:ignore="MissingConstraints"></ImageView>
+
     <TextView
+        android:id="@+id/phonetv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="95201478"
-        android:id="@+id/phonetv"/>
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="375dp"
+        tools:ignore="MissingConstraints" />
 
 
 </android.support.constraint.ConstraintLayout>
