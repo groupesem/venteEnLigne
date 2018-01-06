@@ -10,7 +10,7 @@
         android:id="@+id/logoimg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/LOGO"
+        android:src="@drawable/logo"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="0dp"
         tools:ignore="MissingConstraints" />
@@ -29,7 +29,7 @@
         android:id="@+id/composantimg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/COMP"
+        android:src="@drawable/comp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="59dp"
         tools:ignore="MissingConstraints" />
@@ -51,7 +51,7 @@
         android:id="@+id/localeimg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/LOCAL"
+        android:src="@drawable/local"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="474dp"
         tools:ignore="MissingConstraints"></ImageView>
@@ -89,7 +89,7 @@
         android:id="@+id/phoneimg"
         android:layout_width="26dp"
         android:layout_height="22dp"
-        android:src="@drawable/PHONE"
+        android:src="@drawable/phone"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="375dp"
         tools:ignore="MissingConstraints"></ImageView>
