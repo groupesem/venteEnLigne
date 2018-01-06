@@ -8,7 +8,7 @@ import android.widget.EditText;
 
 public class client
 {
-    Integer id;
+    Integer id; 
     String  nom ;
     String prenom ;
     Integer  tel ;
