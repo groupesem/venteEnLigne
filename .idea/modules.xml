@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://D:\l3_SEM\android\app android\venteEnLigne\VenteElectronique.iml" filepath="D:\l3_SEM\android\app android\venteEnLigne\VenteElectronique.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://D:\l3_SEM\android\app android\venteEnLigne\app\app.iml" filepath="D:\l3_SEM\android\app android\venteEnLigne\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/venteEnLigne.iml" filepath="$PROJECT_DIR$/venteEnLigne.iml" />
     </modules>
   </component>
