@@ -6,13 +6,70 @@
     android:layout_height="match_parent"
     tools:context="com.example.takwa.venteelectronique.MainActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/LOGO"
+        android:id="@+id/logoimg"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="ElectroVente"
+        android:id="@+id/logotv"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/COMP"
+        android:id="@+id/composantimg"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ElectroVente est une application android \n qui nous facilite
+        la recherche et l'achat des composants electroniques en proposant une varité des materiels embarquées en tunisie"
+        android:id="@+id/composanttv"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/LOCAL"
+        android:id="@+id/localeimg">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tunis"
+        android:id="@+id/localetv"/>
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/msg"
+        android:id="@+id/mailimg">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electro_vente@gmail.com"
+        android:id="@+id/mailtv"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/PHONE"
+        android:id="@+id/phoneimg">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="95201478"
+        android:id="@+id/phonetv"/>
+
 
 </android.support.constraint.ConstraintLayout>
