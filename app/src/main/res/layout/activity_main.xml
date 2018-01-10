@@ -94,14 +94,15 @@
         tools:layout_editor_absoluteY="375dp"
         tools:ignore="MissingConstraints"></ImageView>
 
-    <TextView
-        android:id="@+id/phonetv"
+
+    <Button
+        android:id="@+id/buttonCall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="95201478"
+        android:text="call 95201478"
         tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="375dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="357dp" />
+         />
 
 
 </android.support.constraint.ConstraintLayout>

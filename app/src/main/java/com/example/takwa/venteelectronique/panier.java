@@ -12,5 +12,8 @@ public class panier extends AppCompatActivity
         setContentView(R.layout.activity_panier);
 
 
+        
+        panier p = new panier();
+
     }
 }

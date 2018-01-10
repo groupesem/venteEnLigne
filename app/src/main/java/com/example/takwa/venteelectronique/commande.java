@@ -18,7 +18,10 @@ public class commande
         list_commande.add(c);
     }
     public void delete(ligne_commande c)
+
     {
         list_commande.remove(c);
     }
+
+
 }
